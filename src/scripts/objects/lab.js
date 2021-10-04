@@ -60,7 +60,7 @@ export default class Lab extends GameObject {
 		g.endFill();
 
 		// energy fill
-		let e = obj.energy / obj.energyCapacity;
+		let e = obj.store.energy / obj.energyCapacity;
 		let mehw = wh - 3; // max energy half-width
 		let ehw = mehw * e; // energy half-width
 		g.lineStyle(0, 0, 0);

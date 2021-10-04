@@ -104,10 +104,10 @@ export class CreepSkin {
 		donut(g, m, m, pr, pr-pw, -workAL, +workAL);
 		g.endFill();
 
-		if(obj.energyCapacity) {
+		if(obj.storeCapacity) {
 			g.lineStyle(0, 0, 0);
 			g.beginFill(0xffff00);
-			let e = S(2.5) * Math.sqrt(obj.energy / obj.energyCapacity);
+			let e = S(2.5) * Math.sqrt(obj.store.energy / obj.storeCapacity);
 			if (e > 0) e = Math.max(1, e);
 			g.drawCircle(m, m, e);
 			g.endFill();
