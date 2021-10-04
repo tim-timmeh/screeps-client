@@ -21,7 +21,7 @@ export default class Spawn extends GameObject {
 
 		g.lineStyle(0, 0, 0);
 		g.beginFill(0xffff00);
-		let e = (S(5) - 2) * Math.sqrt(obj.store.energy / obj.storeCapacity);
+		let e = (S(5) - 2) * Math.sqrt(obj.store.energy / obj.storeCapacityResource.energy);
 		if (e > 0) e = Math.max(1, e);
 		g.drawCircle(S(5), S(5), e);
 		g.endFill();

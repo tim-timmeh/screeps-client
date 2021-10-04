@@ -53,7 +53,7 @@ export default class Link extends GameObject {
     g.lineStyle(0, 0x000000, 0);
     diamond(0x555555, 0.7);
 
-    diamond(0xffee66, 0.7 * obj.store.energy / obj.storeCapacity);
+    diamond(0xffee66, 0.7 * obj.store.energy / obj.storeCapacityResource.energy);
     
   }
 }
