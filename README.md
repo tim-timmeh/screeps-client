@@ -49,3 +49,7 @@ See issues for the full list. Notably:
 ## This is how to sign
 
 http://www.androiddevelopment.org/2009/01/19/signing-an-android-application-for-real-life-mobile-device-usage-installation/
+
+## Additional room visual objects
+
+https://github.com/AlinaNova21/screeps-client-1/tree/master/src/scripts/objects
