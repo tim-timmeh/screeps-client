@@ -45,3 +45,7 @@ See issues for the full list. Notably:
 - Orders
 - Badges
 - Login using Steam or Github
+
+## This is how to sign
+
+http://www.androiddevelopment.org/2009/01/19/signing-an-android-application-for-real-life-mobile-device-usage-installation/
